@@ -64,6 +64,7 @@ header {
   background-color: var(--white);
   color: var(--black);
   justify-content: space-between;
+  position: fixed;
 }
 
 nav {
@@ -93,6 +94,11 @@ li img {
 
 .list-r li:last-child a {
   color: var(--white);
+}
+
+/* PADDING FIXED */
+header + * {
+  padding-top: 50px;
 }
 
 /* MAIN */
