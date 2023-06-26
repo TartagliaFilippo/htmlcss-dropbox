@@ -1,4 +1,21 @@
 /* GENERICS */
+:root {
+  /* PALETTE COLORI */
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #b4d0e7;
+  --btn: #0061ff;
+  --grey: #f5f5f5;
+  --cd-st: #a2d39b;
+  --cdl-nd: #61082b;
+  --cdl-rd: #0093ce;
+  --cdl-th: #ff1c1c;
+  --cdr-st: #d5001f;
+  --cdr-nd: #b4d0e7;
+  --cdr-rd: #0d2481;
+  --cdr-th: #ffd830;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +23,7 @@
 }
 
 body {
-  width: 100%;
+  width: 1180px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -27,3 +44,8 @@ body {
 }
 
 /* STRUCTURE */
+
+/* DEBUG */
+.bordered {
+  border: 1px solid black;
+}
