@@ -1,0 +1,29 @@
+/* GENERICS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* UTILS */
+.flex {
+  display: flex;
+}
+
+.container-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-70 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* STRUCTURE */
