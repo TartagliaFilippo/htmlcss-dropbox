@@ -23,8 +23,8 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 1180px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 1920px;
   margin: 0 auto;
 }
 
@@ -46,13 +46,13 @@ li a {
   display: flex;
 }
 
-.container-80 {
-  width: 80%;
+.container-70 {
+  width: 1180px;
   margin: 0 auto;
 }
 
-.container-70 {
-  width: 70%;
+.container-60 {
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -67,22 +67,22 @@ header {
 }
 
 nav {
-  height: 100px;
+  height: 80px;
 }
 
 .list-r > li {
-  line-height: 100px;
-  margin: 0px 8px;
+  line-height: 80px;
+  margin: 0px 10px;
 }
 
 .list-l > li {
-  line-height: 100px;
-  margin: 0px 8px;
+  line-height: 80px;
+  margin: 0px 15px;
 }
 
 /* LOGO DROPBOX */
 li img {
-  height: 20px;
+  height: 25px;
 }
 
 /* BTN NAV-R */
@@ -93,6 +93,46 @@ li img {
 
 .list-r li:last-child a {
   color: var(--white);
+}
+
+/* MAIN */
+
+/* BACKGROUND */
+.background {
+  background-color: var(--blue);
+  min-height: 500px;
+}
+
+/* JUMBOTRON */
+.info {
+  width: calc(100% - 70%);
+}
+
+.image {
+  width: calc(100% - 30%);
+}
+
+.image img {
+  width: 100%;
+}
+
+.title h1 {
+  font-size: 62px;
+  text-align: left;
+  padding: 100px 0 75px 0;
+}
+
+.info .btn {
+  display: inline-block;
+  color: var(--white);
+  background-color: var(--btn);
+  padding: 5px 10px;
+  margin: 35px 0;
+}
+
+.info .arrow {
+  font-size: 70px;
+  margin-top: 80px;
 }
 
 /* DEBUG */
