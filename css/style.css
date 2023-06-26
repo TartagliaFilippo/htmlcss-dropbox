@@ -107,9 +107,14 @@ header + * {
 .background {
   background-color: var(--blue);
   min-height: 500px;
+  position: relative;
 }
 
 /* JUMBOTRON */
+.jumbo-items * {
+  z-index: 2;
+}
+
 .info {
   width: calc(100% - 70%);
 }
@@ -137,8 +142,17 @@ header + * {
 }
 
 .info .arrow {
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 80px;
+}
+
+.blocco {
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--white);
+  z-index: 0;
 }
 
 /* DEBUG */
