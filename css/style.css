@@ -204,9 +204,19 @@ header + * {
   margin-bottom: 20px;
 }
 
-.c-col > p {
+.article {
   color: var(--border);
   margin-bottom: 45px;
+}
+
+.c-col ul {
+  flex-direction: column;
+}
+
+.c-col ul li {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
 }
 
 /* DEBUG */
