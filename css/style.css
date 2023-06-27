@@ -464,6 +464,39 @@ header + * {
   margin-right: 40px;
 }
 
+/* FOOTER */
+footer {
+  background-color: var(--black);
+  padding: 130px 0;
+}
+
+.container-z.flex {
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.col-5 h3 {
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.white {
+  flex-direction: column;
+}
+
+.white li {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.language {
+  color: var(--border);
+}
+
+.language i {
+  margin: 0px 10px 0px 5px;
+}
+
 /* DEBUG */
 .bordered {
   border: 1px solid var(--black);
