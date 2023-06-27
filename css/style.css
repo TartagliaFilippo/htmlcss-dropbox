@@ -49,21 +49,12 @@ li a {
 /* UTILS */
 /* HUNDLE */
 .hundle {
-  position: relative;
   margin: 40px 0 50px;
 }
 
 hr {
   color: var(--border);
-}
-
-.eraser {
-  background-color: var(--white);
-  height: 2px;
-  width: 80%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  width: 20%;
 }
 
 .flex {
@@ -369,6 +360,8 @@ header + * {
   font-size: 35px;
   margin-bottom: 50px;
 }
+
+/* FIFTH SECTION */
 
 /* DEBUG */
 .bordered {
