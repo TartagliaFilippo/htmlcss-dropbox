@@ -201,6 +201,7 @@ header + * {
 }
 
 .c-col > h5 {
+  font-size: 15px;
   margin-bottom: 20px;
 }
 
@@ -246,6 +247,14 @@ hr {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.check {
+  margin-top: 35px;
+}
+
+.check li span {
+  color: var(--btn);
 }
 
 /* DEBUG */
