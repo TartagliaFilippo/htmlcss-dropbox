@@ -229,6 +229,25 @@ header + * {
   margin-bottom: 35px;
 }
 
+/* HUNDLE */
+.hundle {
+  position: relative;
+  margin: 40px 0 50px;
+}
+
+hr {
+  color: var(--border);
+}
+
+.eraser {
+  background-color: var(--white);
+  height: 2px;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* DEBUG */
 .bordered {
   border: 1px solid var(--border);
