@@ -356,7 +356,7 @@ header + * {
 /* FOURTH SECTION */
 .paragrafo .container-60 h2 {
   font-size: 35px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 /* FIFTH SECTION */
@@ -446,6 +446,22 @@ header + * {
   color: var(--black);
   background-color: var(--white);
   padding: 10px 20px;
+}
+
+/* FAQ */
+.faq h2 {
+  border-bottom: 1px solid var(--border);
+}
+
+.quest {
+  min-height: 100px;
+  border-bottom: 1px solid var(--border);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quest span {
+  margin-right: 40px;
 }
 
 /* DEBUG */
