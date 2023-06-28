@@ -47,6 +47,10 @@ li a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 35px;
+}
+
 /* UTILS */
 /* MARGINE SEZIONI */
 .paragrafo {
@@ -183,7 +187,6 @@ header + * {
 
 /* FIRST SECTION */
 .effect .container-60 > h2 {
-  font-size: 35px;
   margin: 80px 0;
 }
 
@@ -355,7 +358,6 @@ header + * {
 
 /* FOURTH SECTION */
 .paragrafo .container-60 h2 {
-  font-size: 35px;
   padding-bottom: 50px;
 }
 
@@ -437,7 +439,6 @@ header + * {
 }
 
 .sixth .flex h2 {
-  font-size: 35px;
   color: var(--h2);
 }
 
