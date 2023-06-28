@@ -79,6 +79,15 @@ hr {
   display: flex;
 }
 
+.relative {
+  position: relative;
+}
+
+.container-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .container-70 {
   width: 1180px;
   margin: 0 auto;
@@ -89,7 +98,12 @@ hr {
   margin: 0 auto;
 }
 
+.b-whi {
+  background-color: var(--white);
+}
+
 .btn {
+  background-color: var(--btn);
   padding: 10px 20px;
 }
 
@@ -147,9 +161,9 @@ header + * {
 
 /* BACKGROUND */
 .background {
+  width: 100%;
   background-color: var(--blue);
-  min-height: 500px;
-  position: relative;
+  min-height: 300px;
 }
 
 /* JUMBOTRON */
@@ -373,7 +387,7 @@ header + * {
   background-color: var(--grey);
 }
 
-.sponsor .container-k {
+.sponsor .container-80 {
   width: 80%;
   margin: 50px auto 0;
 }
@@ -433,24 +447,17 @@ header + * {
 }
 
 /* SIXTH SECTION */
-.sixth {
-  width: 100%;
-  background-color: var(--blue);
-  min-height: 300px;
-}
-
-.sixth .flex {
+.background .flex {
   justify-content: space-between;
   align-items: center;
 }
 
-.sixth .flex h2 {
+.background .flex h2 {
   color: var(--h2);
 }
 
-.sixth .flex .btn {
+.flex .btn.b-whi {
   display: inline-block;
-  background-color: var(--white);
   color: var(--black);
   padding: 10px 20px;
 }
@@ -477,7 +484,7 @@ footer {
   padding: 130px 0;
 }
 
-.container-z.flex {
+.footer-sec.flex {
   justify-content: space-between;
   margin-bottom: 100px;
 }
