@@ -232,6 +232,19 @@ header + * {
   margin-right: 30px;
 }
 
+.input-radio {
+  border: 1px solid var(--border);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.input-radio.check {
+  border: none;
+  box-shadow: inset 0px 0px 0px 4px var(--btn);
+}
+
 /* COL-3 */
 .cont-col {
   justify-content: space-between;
