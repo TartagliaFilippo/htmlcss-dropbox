@@ -393,6 +393,8 @@ header + * {
 .kube img {
   width: 50%;
   height: 50%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(267deg)
+    brightness(107%) contrast(101%);
 }
 
 /* KUBE COLOR */
