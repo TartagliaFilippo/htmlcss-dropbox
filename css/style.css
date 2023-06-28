@@ -55,6 +55,10 @@ h3 {
   font-size: 22px;
 }
 
+h5 {
+  font-size: 15px;
+}
+
 /* UTILS */
 /* MARGINE SEZIONI */
 .paragrafo {
@@ -102,7 +106,7 @@ header {
 }
 
 nav {
-  height: 80px;
+  min-height: 80px;
 }
 
 .list-l {
@@ -116,7 +120,7 @@ nav {
 
 .list-r > li {
   line-height: 80px;
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 
 /* LOGO DROPBOX */
@@ -128,7 +132,6 @@ li img {
 /* BTN NAV-R */
 .list-r li:last-child {
   background-color: var(--btn);
-  padding: 10px 20px;
 }
 
 .list-r li:last-child a {
@@ -227,7 +230,6 @@ header + * {
 }
 
 .c-col > h5 {
-  font-size: 15px;
   margin-bottom: 20px;
 }
 
@@ -366,7 +368,7 @@ header + * {
 /* FIFTH SECTION */
 .sponsor {
   width: calc(100% / 3);
-  min-height: 200px;
+  min-height: 640px;
   flex-wrap: wrap;
   background-color: var(--grey);
 }
