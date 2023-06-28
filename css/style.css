@@ -182,6 +182,10 @@ header + * {
   z-index: 2;
 }
 
+.jumbo-items.flex {
+  align-items: flex-start;
+}
+
 .info {
   width: 30%;
   flex-direction: column;
@@ -207,7 +211,7 @@ header + * {
 
 .info .arrow {
   font-size: 50px;
-  margin-top: auto;
+  margin-top: 60px;
 }
 
 .blocco {
