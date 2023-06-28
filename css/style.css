@@ -65,7 +65,7 @@ h5 {
 /* UTILS */
 /* MARGINE SEZIONI */
 .paragrafo {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 /* HUNDLE */
@@ -159,11 +159,6 @@ li img {
   display: block;
 }
 
-/* BTN NAV-R */
-.list-r li:last-child {
-  background-color: var(--btn);
-}
-
 .list-r li:last-child a {
   color: var(--white);
 }
@@ -188,11 +183,15 @@ header + * {
 }
 
 .info {
-  width: calc(100% - 70%);
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 35px;
 }
 
 .image {
-  width: calc(100% - 30%);
+  width: 70%;
 }
 
 .title h1 {
@@ -204,13 +203,11 @@ header + * {
 .info .btn {
   display: inline-block;
   color: var(--white);
-  background-color: var(--btn);
-  margin: 35px 0;
 }
 
 .info .arrow {
   font-size: 50px;
-  margin-top: 80px;
+  margin-top: auto;
 }
 
 .blocco {
@@ -280,7 +277,6 @@ header + * {
 
 .c-col .btn {
   display: block;
-  background-color: var(--btn);
   color: var(--white);
   text-align: center;
   margin-top: 30px;
@@ -335,7 +331,6 @@ header + * {
 
 .c-bed .btn {
   display: block;
-  background-color: var(--btn);
   color: var(--white);
   width: 25%;
   text-align: center;
@@ -463,7 +458,7 @@ header + * {
 }
 
 /* SIXTH SECTION */
-.background .flex {
+.background > .flex {
   justify-content: space-between;
   align-items: center;
 }
