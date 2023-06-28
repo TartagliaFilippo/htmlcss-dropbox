@@ -461,6 +461,74 @@ header + * {
   background-color: var(--cdr-th);
 }
 
+/* KUBE ANIMATION */
+/* KUBE HOVER */
+.kube.st-1:hover {
+  opacity: 0.5;
+}
+
+.kube.nd-1:hover {
+  opacity: 0.5;
+}
+
+.kube.rd-1:hover {
+  opacity: 0.5;
+}
+
+.kube.th-1:hover {
+  opacity: 0.5;
+}
+
+.kube.st-2:hover {
+  opacity: 0.5;
+}
+
+.kube.nd-2:hover {
+  opacity: 0.5;
+}
+
+.kube.rd-2:hover {
+  opacity: 0.5;
+}
+
+.kube.th-2:hover {
+  opacity: 0.5;
+  box-shadow: inset;
+}
+
+/* KUBE ACTIVE */
+.kube.st-1:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.nd-1:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.rd-1:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.th-1:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.st-2:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.nd-2:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.rd-2:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
+.kube.th-2:active {
+  box-shadow: inset 0px 0px 0px 17px white;
+}
+
 /* SIXTH SECTION */
 .background > .flex {
   justify-content: space-between;
