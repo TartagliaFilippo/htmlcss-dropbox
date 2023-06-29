@@ -213,7 +213,8 @@ header + * {
   font-size: 50px;
 }
 
-@keyframes jump {
+/* ANIMATION ARROW */
+/* @keyframes jump {
   0% {
     transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
   }
@@ -228,7 +229,7 @@ header + * {
 .jump {
   transform-origin: 50% 50%;
   animation: jump 0.5s linear alternate infinite;
-}
+} */
 
 .blocco {
   width: 100%;
@@ -589,6 +590,10 @@ header + * {
 
 .quest span {
   margin-right: 40px;
+}
+
+.quest:last-child {
+  margin-bottom: 130px;
 }
 
 /* FOOTER */
